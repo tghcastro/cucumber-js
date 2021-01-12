@@ -13,7 +13,15 @@ Application
 
 ```shell_script 
 node server.js
+```
+
+Calling its endpoints
+```shell_script 
+# List Menu
 curl http://127.0.0.1:7000/menu
+
+# Create new menu item
+curl -X POST "http://127.0.0.1:7000/menu?item=testitem&value=10"
 ```
 
 ## Running Cucumber JS tests
