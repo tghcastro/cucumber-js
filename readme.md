@@ -1,5 +1,13 @@
 # Cucumber JS POC
-An small poc running Cucumber JS against an Rest API
+For this POC I'm going to create some tests using Cucumber JS against a Rest API. The application (API) is running locally, so it need to be started before run the Cucumber. All commands needed are described in this page and the articles that I used to create this are in the references. 
+
+## Requirements
+
+- Node JS (https://nodejs.org/en/download/)
+
+Application
+- Cucumber JS (`npm i -D cucumber@latest`)
+- Express (`npm install --save express`)
 
 ## Running the application
 
